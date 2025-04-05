@@ -1,43 +1,43 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="Hotels.xsd">
-  
-  
-  <Hotel Rating="4.2">
-    <Name>Grand Plaza Hotel</Name>
-    <Phone>555-123-4567</Phone>
-    <Address NearstAirport="International Airport A">
-      <Number>123</Number>
-      <Street>Main Street</Street>
-      <City>Metropolis</City>
-      <State>CA</State>
-      <Zip>90001</Zip>
-    </Address>
-  </Hotel>
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotels xmlns="https://hairymilkdud.github.io/StuffFour/Hotels.xsd">
 
- 
-  <Hotel>
-    <Name>Sunset Inn</Name>
-    <Phone>555-987-6543</Phone>
-    <Address NearstAirport="Regional Airport B">
-      <Number>456</Number>
-      <Street>Palm Boulevard</Street>
-      <City>Coastal City</City>
-      <State>FL</State>
-      <Zip>33010</Zip>
-    </Address>
-  </Hotel>
+	
+	<Hotel Rating="4.2">
+		<Name>Grand Plaza Hotel</Name>
+		<Phone>555-123-4567</Phone>
+		<Phone>555-987-6543</Phone>
+		<Address NearstAirport="International Airport A">
+			<Number>123</Number>
+			<Street>Main Street</Street>
+			<City>Metropolis</City>
+			<State>CA</State>
+			<Zip>90001</Zip>
+		</Address>
+	</Hotel>
 
-  
-  <Hotel Rating="3.9">
-    <Name>Mountain Lodge</Name>
-    <Phone>555-222-3333</Phone>
-    <Address NearstAirport="Alpine Airfield">
-      <Number>789</Number>
-      <Street>Evergreen Trail</Street>
-      <City>Rocky Peaks</City>
-      <State>CO</State>
-      <Zip>80401</Zip>
-    </Address>
-  </Hotel>
+	
+	<Hotel>
+		<Name>Sunset Inn</Name>
+		<Phone>555-987-6543</Phone>
+		<Address NearstAirport="Regional Airport B">
+			<Number>456</Number>
+			<Street>Palm Boulevard</Street>
+			<City>Coastal City</City>
+			<State>FL</State>
+			<Zip>33010</Zip>
+		</Address>
+	</Hotel>
+
+	
+	<Hotel Rating="3.9">
+		<Name>Mountain Lodge</Name>
+		<Phone>555-222-3333</Phone>
+		<Address NearstAirport="Alpine Airfield">
+			<Number>789</Number>
+			<Street>Evergreen Trail</Street>
+			<City>Rocky Peaks</City>
+			<State>CO</State>
+			<Zip>80401</Zip>
+		</Address>
+	</Hotel>
 </Hotels>
