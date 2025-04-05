@@ -15,7 +15,7 @@
 								
 							</xsd:element>
 
-							<xsd:element name ="Phone" type="xsd:string">
+							<xsd:element name ="Phone" type="xsd:string" maxOccurs="unbounded">
 
 							</xsd:element>
 					
