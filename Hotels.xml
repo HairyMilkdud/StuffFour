@@ -5,7 +5,6 @@
 	<Hotel Rating="4.2">
 		<Name>Grand Plaza Hotel</Name>
 		<Phone>555-123-4567</Phone>
-		<Phone>555-987-6543</Phone>
 		<Address NearstAirport="International Airport A">
 			<Number>123</Number>
 			<Street>Main Street</Street>
