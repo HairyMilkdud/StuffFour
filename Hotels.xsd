@@ -9,12 +9,13 @@
         <xsd:element name="Hotel" maxOccurs="unbounded">
           <xsd:complexType>
             <xsd:sequence>
-              <xsd:element name="Name">
+              <xsd:element name="Name"> <!-- elements of the hotel object -->
               </xsd:element>
               <xsd:element name="Phone" type="xsd:string" maxOccurs="unbounded"/>
               <xsd:element name="Address">
                 <xsd:complexType>
                   <xsd:sequence>
+                    <!-- address subelements -->
                     <xsd:element name="Number" type="xsd:string"/>
                     <xsd:element name="Street" type="xsd:string"/>
                     <xsd:element name="City" type="xsd:string"/>
@@ -25,7 +26,7 @@
                 </xsd:complexType>
               </xsd:element>
             </xsd:sequence>
-            <xsd:attribute name="Rating" type="xsd:string" use="optional"/>
+            <xsd:attribute name="Rating" type="xsd:string" use="optional"/> <!-- optional attribute -->
           </xsd:complexType>
         </xsd:element>
       </xsd:sequence>
