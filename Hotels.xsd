@@ -1,8 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
-<xsd:schema xmlns:xsd="https://hairymilkdud.github.io/StuffFour/Hotels.xsd"
-targetNamespace="https://hairymilkdud.github.io/StuffFour/Hotels.xsd"
-xmlns="https://hairymilkdud.github.io/StuffFour/Hotels.xsd"
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+ 
   elementFormDefault="qualified" attributeFormDefault="unqualified">
 	
 	<xsd:element name ="Hotels">
