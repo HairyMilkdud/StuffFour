@@ -1,1 +1,134 @@
-﻿
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotel  <!-- 1: Wrong root element name -->
+        xmlns="https://hairymilkdud.github.io/StuffFour/Hotels.xsd" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://hairymilkdud.github.io/StuffFour/Hotels.xsd https://raw.githubusercontent.com/HairyMilkdud/StuffFour/refs/heads/main/Hotels.xsd">
+
+	<Hotel Rating="4.6">
+		<Name>Wynn Las Vegas</Name>
+		<Phone>702-555-1111</Phone>
+		<Address NearstAirport="International Airport 1">
+			<Number>1111</Number>
+			<Street>Wynn Street</Street>
+			<City>Las Vegas</City>
+			<State>NV</State>
+			<Zip>89109</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.4">
+		<Name>MGM Grand</Name>
+		<Phone>702-555-2222</Phone>
+		<Phone>702-555-3333</Phone>
+		<Address NearstAirport="International Airport 2">
+			<Number>2222</Number>
+			<Street>MGM Street</Street>
+			<City>Las Vegas</City>
+			<State>NV</State>
+			<Zip>89123</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel>
+		<!-- 5 Duplicate Name elements -->
+		<Name>New York-New York Hotel</Name>
+		<Name>Duplicate Name Error</Name>
+		<Phone>702-555-4444</Phone>
+		<!-- 2 missing required NearstAirport attribute -->
+		<Address>  
+			<Number>3333</Number>
+			<Street>New York Street</Street>
+			<City>Las Vegas</City>
+			<State>NV</State>
+			<Zip>89705</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.3">
+		<Name>Caesars Palace</Name>
+		<Phone>702-555-5555</Phone>
+		<Phone>702-555-6666</Phone>
+		<Address NearstAirport="International Airport 1">
+			<Number>4444</Number>
+			<Street>Caesars Street</Street>
+			<City>Las Vegas</City>
+			<State>NV</State>
+			<Zip>89807</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.7">
+		<Name>Bellagio Hotel And Casino</Name>
+		<Phone>702-555-7777</Phone>
+		<Phone>702-693-8888</Phone>
+		<Address NearstAirport="Harry Reid International">
+			<Number>5555</Number>
+			<Street>Bellagio Street</Street>
+			<City>Las Vegas</City>
+			<State>NV</State>
+			<Zip>89209</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.8">
+		<Name>The Venetian Resort</Name>
+		<Phone>702-555-9999</Phone>
+		<Address NearstAirport="Harry Reid International">
+			<Number>6666</Number>
+			<Street>Venetian Street</Street>
+			<City>Las Vegas</City>
+			<State>NV</State>
+			<Zip>89329</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel>
+		<Name>Luxor Hotel And Casino</Name>
+		<!-- 3 missing Phone element -->
+		<Address NearstAirport="Harry Reid International">
+			<Number>7777</Number>
+			<Street>Luxor Street</Street>
+			<City>Las Vegas</City>
+			<State>NV</State>
+			<Zip>89119</Zip>
+		<!-- 4 unclosed Address element -->
+	</Hotel>
+	
+	<Hotel Rating="4.5">
+		<Name>The Cosmopolitan</Name>
+		<Phone>702-555-1212</Phone>
+		<Address NearstAirport="Vegas Airport #2">
+			<Number>8888</Number>
+			<Street>Cosmopolitan Street</Street>
+			<City>Las Vegas</City>
+			<State>NV</State>
+			<Zip>89149</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel>
+		<Name>Circus Circus</Name>
+		<!-- 3 Phone element has been removed -->
+		<Address NearstAirport="Vegas Airport #1">
+			<Number>9999</Number>
+			<Street>Circus Street</Street>
+			<City>Las Vegas</City>
+			<State>NV</State>
+			<Zip>89111</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.2">
+		<Name>Paris Las Vegas</Name>
+		<Phone>702-555-1414</Phone>
+		<Phone>702-555-1515</Phone>
+		<Address NearstAirport="Vegas Airport #1">
+			<Number>0000</Number>
+			<Street>Paris Street</Street>
+			<City>Las Vegas</City>
+			<State>NV</State>
+			<Zip>89123</Zip>
+		</Address>
+	</Hotel>
+
+</Hotel>
