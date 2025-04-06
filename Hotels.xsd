@@ -11,7 +11,7 @@
         <xsd:element name="Hotel" maxOccurs="unbounded">
           <xsd:complexType>
             <xsd:sequence>
-              <!-- Name with required ID attribute -->
+             
               <xsd:element name="Name">
                 <xsd:complexType>
                   <xsd:simpleContent>
@@ -22,10 +22,10 @@
                 </xsd:complexType>
               </xsd:element>
 
-              <!-- Phone numbers (multiple allowed) -->
+             
               <xsd:element name="Phone" type="xsd:string" maxOccurs="unbounded"/>
 
-              <!-- Address with required NearstAirport -->
+             
               <xsd:element name="Address">
                 <xsd:complexType>
                   <xsd:sequence>
@@ -39,7 +39,8 @@
                 </xsd:complexType>
               </xsd:element>
             </xsd:sequence>
-            <!-- Optional Rating attribute -->
+
+            
             <xsd:attribute name="Rating" type="xsd:decimal" use="optional"/>
           </xsd:complexType>
         </xsd:element>
