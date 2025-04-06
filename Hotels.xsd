@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-    targetNamespace="https://hairymilkdud.github.io/StuffFour/Hotels.xsd"
+    targetNamespace="https://YoussufMo.github.io/A4/Hotels.xsd"
     elementFormDefault="qualified"
     attributeFormDefault="unqualified">
   <xsd:element name="Hotels">
@@ -9,15 +9,7 @@
         <xsd:element name="Hotel" maxOccurs="unbounded">
           <xsd:complexType>
             <xsd:sequence>
-             
               <xsd:element name="Name">
-                <xsd:complexType>
-                  <xsd:simpleContent>
-                    <xsd:extension base="xsd:string">
-                      <xsd:attribute name="id" type="xsd:ID" use="required"/>
-                    </xsd:extension>
-                  </xsd:simpleContent>
-                </xsd:complexType>
               </xsd:element>
               <xsd:element name="Phone" type="xsd:string" maxOccurs="unbounded"/>
               <xsd:element name="Address">
@@ -33,7 +25,7 @@
                 </xsd:complexType>
               </xsd:element>
             </xsd:sequence>
-            <xsd:attribute name="Rating" type="xsd:decimal" use="optional"/>
+            <xsd:attribute name="Rating" type="xsd:string" use="optional"/>
           </xsd:complexType>
         </xsd:element>
       </xsd:sequence>
