@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsd:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-   targetNamespace="https://hairymilkdud.github.io/StuffFour/Hotels.xsd">
+<xsd:schema attributeFormDefault="qualified" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+   >
 
   <xsd:element name="Hotels">
     <xsd:complexType>
