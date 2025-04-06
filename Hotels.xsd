@@ -5,7 +5,7 @@ targetNamespace="https://hairymilkdud.github.io/StuffFour/Hotels.xsd"
 xmlns="https://hairymilkdud.github.io/StuffFour/Hotels.xsd"
   elementFormDefault="qualified" attributeFormDefault="unqualified">
 	
-	<xsd:element name ="BALLS">
+	<xsd:element name ="Hotels">
 		<xsd:complexType>
 			<xsd:sequence>
 				<xsd:element name="Hotel" maxOccurs ="unbounded">
