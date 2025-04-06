@@ -2,7 +2,7 @@
 <Hotels 
         xmlsns="https://hairymilkdud.github.io/StuffFour/Hotels.xsd"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="https://hairymilkdud.github.io/StuffFour/Hotels.xsd https://raw.githubusercontent.com/HairyMilkdud/StuffFour/refs/heads/main/Hotels.xsd">
+	xsi:schemaLocation="https://hairymilkdud.github.io/StuffFour/Hotels.xsd">
 	
 
 	<Hotel Rating="4.6">
