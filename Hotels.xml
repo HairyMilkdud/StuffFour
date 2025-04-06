@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Hotels xmlns="https://hairymilkdud.github.io/StuffFour/Hotels.xsd"
         xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance"
-        xsd:schemaLocation="https://hairymilkdud.github.io/StuffFour/Hotels.xsd">
+        xsd:schemaLocation="https://hairymilkdud.github.io/StuffFour/Hotels.xsd"
+	Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://hairymilkdud.github.io/StuffFour/Hotels.xsd">
+	
 
 	<Hotel Rating="4.6">
 		<Name>Wynn Las Vegas</Name>
