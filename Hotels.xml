@@ -5,7 +5,7 @@
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="https://hairymilkdud.github.io/StuffFour/Hotels.xsd https://raw.githubusercontent.com/HairyMilkdud/StuffFour/refs/heads/main/Hotels.xsd">
 	
-
+	<!-- Real life hotels -->
 	<Hotel Rating="4.6">
 		<Name>Wynn Las Vegas</Name>
 		<Phone>702-555-1111</Phone>
