@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Hotels xmlns="https://hairymilkdud.github.io/StuffFour/Hotels.xsd"
-        xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance"
+<Hotels 
         xsd:schemaLocation="https://hairymilkdud.github.io/StuffFour/Hotels.xsd"
 	Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://hairymilkdud.github.io/StuffFour/Hotels.xsd">
 	
