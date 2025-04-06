@@ -48,6 +48,6 @@
 				</xs:element>
 			</xs:sequence>
 		</xs:complexType>
-	</xsd:element>
+	</xs:element>
 	
-</xsd:schema>
+</xs:schema>
