@@ -1,43 +1,128 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Hotels xmlns="https://hairymilkdud.github.io/StuffFour/Hotels.xsd">
 
-	
-	<Hotel Rating="4.2">
-		<Name>Grand Plaza Hotel</Name>
-		<Phone>555-123-4567</Phone>
-		<Phone>555-987-6543</Phone>
-		<Address NearstAirport="International Airport A">
-			<Number>123</Number>
-			<Street>Main Street</Street>
-			<City>Metropolis</City>
-			<State>CA</State>
-			<Zip>90001</Zip>
+	<Hotel Rating="4.6">
+		<Name>Wynn Las Vegas</Name>
+		<Phone>702-555-1111</Phone>
+		<Address NearstAirport="International Airport 1">
+			<Number>1111</Number>
+			<Street>Wynn Street</Street>
+			<City>Las Vegas</City>
+			<State>NV</State>
+			<Zip>89109</Zip>
 		</Address>
 	</Hotel>
 
-	
+	<Hotel Rating="4.4">
+		<Name>MGM Grand</Name>
+		<Phone>702-555-2222</Phone>
+		<Phone>702-555-3333</Phone>
+		<Address NearstAirport="International Airport 2">
+			<Number>2222</Number>
+			<Street>MGM Street</Street>
+			<City>Las Vegas</City>
+			<State>NV</State>
+			<Zip>89123</Zip>
+		</Address>
+	</Hotel>
+
 	<Hotel>
-		<Name>Sunset Inn</Name>
-		<Phone>555-987-6543</Phone>
-		<Address NearstAirport="Regional Airport B">
-			<Number>456</Number>
-			<Street>Palm Boulevard</Street>
-			<City>Coastal City</City>
-			<State>FL</State>
-			<Zip>33010</Zip>
+		<Name>New York-New York Hotel</Name>
+		<Phone>702-555-4444</Phone>
+		<Address NearstAirport="International Airport 3">
+			<Number>3333</Number>
+			<Street>New York Street</Street>
+			<City>Las Vegas</City>
+			<State>NV</State>
+			<Zip>89705</Zip>
 		</Address>
 	</Hotel>
 
-	
-	<Hotel Rating="3.9">
-		<Name>Mountain Lodge</Name>
-		<Phone>555-222-3333</Phone>
-		<Address NearstAirport="Alpine Airfield">
-			<Number>789</Number>
-			<Street>Evergreen Trail</Street>
-			<City>Rocky Peaks</City>
-			<State>CO</State>
-			<Zip>80401</Zip>
+	<Hotel Rating="4.3">
+		<Name>Caesars Palace</Name>
+		<Phone>702-555-5555</Phone>
+		<Phone>702-555-6666</Phone>
+		<Address NearstAirport="International Airport 1">
+			<Number>4444</Number>
+			<Street>Caesars Street</Street>
+			<City>Las Vegas</City>
+			<State>NV</State>
+			<Zip>89807</Zip>
 		</Address>
 	</Hotel>
+
+	<Hotel Rating="4.7">
+		<Name>Bellagio Hotel And Casino</Name>
+		<Phone>702-555-7777</Phone>
+		<Phone>702-693-8888</Phone>
+		<Address NearstAirport="Harry Reid International">
+			<Number>5555</Number>
+			<Street>Bellagio Street</Street>
+			<City>Las Vegas</City>
+			<State>NV</State>
+			<Zip>89209</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.8">
+		<Name>The Venetian Resort</Name>
+		<Phone>702-555-9999</Phone>
+		<Address NearstAirport="Harry Reid International">
+			<Number>6666</Number>
+			<Street>Venetian Street</Street>
+			<City>Las Vegas</City>
+			<State>NV</State>
+			<Zip>89329</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel>
+		<Name>Luxor Hotel And Casino</Name>
+		<Phone>702-555-0000</Phone>
+		<Address NearstAirport="Harry Reid International">
+			<Number>7777</Number>
+			<Street>Luxor Street</Street>
+			<City>Las Vegas</City>
+			<State>NV</State>
+			<Zip>89119</Zip>
+		</Address>
+	</Hotel>
+	
+	<Hotel Rating="4.5">
+		<Name>The Cosmopolitan</Name>
+		<Phone>702-555-1212</Phone>
+		<Address NearstAirport="Vegas Airport #2">
+			<Number>8888</Number>
+			<Street>Cosmopolitan Street</Street>
+			<City>Las Vegas</City>
+			<State>NV</State>
+			<Zip>89149</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel>
+		<Name>Circus Circus</Name>
+		<Phone>702-555-1313</Phone>
+		<Address NearstAirport="Vegas Airport #1">
+			<Number>9999</Number>
+			<Street>Circus Street</Street>
+			<City>Las Vegas</City>
+			<State>NV</State>
+			<Zip>89111</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.2">
+		<Name>Paris Las Vegas</Name>
+		<Phone>702-555-1414</Phone>
+		<Phone>702-555-1515</Phone>
+		<Address NearstAirport="Vegas Airport #1">
+			<Number>0000</Number>
+			<Street>Paris Street</Street>
+			<City>Las Vegas</City>
+			<State>NV</State>
+			<Zip>89123</Zip>
+		</Address>
+	</Hotel>
+
 </Hotels>
