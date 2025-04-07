@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" <!-- XSD Header -->
     targetNamespace="https://hairymilkdud.github.io/StuffFour/Hotels.xsd"
     elementFormDefault="qualified"
     attributeFormDefault="unqualified">
-  <xsd:element name="Hotels">
+  <xsd:element name="Hotels"> <!-- Root --> 
     <xsd:complexType>
       <xsd:sequence>
         <xsd:element name="Hotel" maxOccurs="unbounded">
